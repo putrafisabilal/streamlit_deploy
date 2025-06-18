@@ -10,7 +10,7 @@ def run():
     with open(model_path, "rb") as f:
             model = pickle.load(f) 
 
-    st.title("Prediksi Reccured Pasien Pasca Operasi")
+    st.title("Prediksi Kekambuhan Pasien Pasca Operasi")
 
     # buat form
     with st.form('pemain'):
